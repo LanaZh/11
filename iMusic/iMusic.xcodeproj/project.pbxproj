@@ -44,6 +44,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB69BF4A29072C0A00471300 /* first modul data */ = {
+			isa = PBXGroup;
+			children = (
+				BBED9F9D28F495BC0098E647 /* FirstList.swift */,
+				BB69BF2829032E5600471300 /* SettingList.swift */,
+			);
+			path = "first modul data";
+			sourceTree = "<group>";
+		};
+		BB69BF4B29072C4300471300 /* first modul model */ = {
+			isa = PBXGroup;
+			children = (
+				BBE7B25B28F2044200643B2B /* Visualplayer.swift */,
+				BBE7B25728F203E800643B2B /* Miniplayer.swift */,
+				BBE7B24B28F2038900643B2B /* ContentView.swift */,
+				BBE7B25D28F2058A00643B2B /* tabBar.swift */,
+				BBE7B25928F2041800643B2B /* SecondList.swift */,
+			);
+			path = "first modul model";
+			sourceTree = "<group>";
+		};
 		BBE7B23D28F2038900643B2B = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				BBE7B24928F2038900643B2B /* iMusicApp.swift */,
-				BBE7B24B28F2038900643B2B /* ContentView.swift */,
-				BBED9F9D28F495BC0098E647 /* FirstList.swift */,
-				BBE7B25928F2041800643B2B /* SecondList.swift */,
-				BB69BF2829032E5600471300 /* SettingList.swift */,
-				BBE7B25D28F2058A00643B2B /* tabBar.swift */,
-				BBE7B25728F203E800643B2B /* Miniplayer.swift */,
-				BBE7B25B28F2044200643B2B /* Visualplayer.swift */,
+				BB69BF4B29072C4300471300 /* first modul model */,
+				BB69BF4A29072C0A00471300 /* first modul data */,
 				BBE7B24D28F2038B00643B2B /* Assets.xcassets */,
 				BBE7B24F28F2038B00643B2B /* Preview Content */,
 			);
