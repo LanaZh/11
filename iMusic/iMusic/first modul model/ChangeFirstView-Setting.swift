@@ -17,10 +17,9 @@ struct ContentView: View {
                 if buttonSet {
                     SecondSwiftUIView()
                 } else {
-                    FirstList()
+                    //FirstList()
                 }
             }
-            .navigationBarTitle("Медиатека")
             .toolbar(content: {
                 Button(action: {
                 buttonSet.toggle()
@@ -35,7 +34,7 @@ struct ContentView: View {
                 })
             })
         }
-    tabBarButton()
+     tabBarButton()
     }
 }
 

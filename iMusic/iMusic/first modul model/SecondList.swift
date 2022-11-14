@@ -57,5 +57,5 @@ struct MetricLibrary {
     static let heightImage: CGFloat = 20
     static let paddingImage: CGFloat = 7
     static let sizeFontText: CGFloat = 20
-    static let heightFrame: CGFloat = 120
+    static let heightFrame: CGFloat = 140
 }

@@ -16,5 +16,13 @@ struct FirstList: View {
                 .font(.system(size: 15))
                 .foregroundColor(.gray)
         }
+        .navigationTitle("Медиатека")
+    } 
+}
+
+struct FirstListStation_Previews: PreviewProvider {
+    static var previews: some View {
+        FirstList()
     }
 }
+
