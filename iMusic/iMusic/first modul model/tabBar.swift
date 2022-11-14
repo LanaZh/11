@@ -11,7 +11,7 @@ struct tabBarButton: View {
             ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom), content: {
             ZStack {
             TabView {
-                    Text("")
+                FirstList()
                     .tabItem {
                         Image(systemName: "house.fill")
                         Text("Поиск")
@@ -21,7 +21,7 @@ struct tabBarButton: View {
                     Image(systemName: "globe")
                     Text("Медиатека")
                 }
-                Text("")
+                radioView()
                 .tabItem {
                     Image(systemName: "heart.fill")
                     Text("Радио")

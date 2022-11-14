@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB2D882B291EB41E006271DB /* radioAllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D882A291EB41E006271DB /* radioAllView.swift */; };
 		BB69BF2929032E5600471300 /* SettingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69BF2829032E5600471300 /* SettingList.swift */; };
+		BB69BF4E29072DA400471300 /* radioUpList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69BF4D29072DA400471300 /* radioUpList.swift */; };
+		BB69BF54290ED63700471300 /* radioDownCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69BF53290ED63700471300 /* radioDownCollection.swift */; };
 		BBE7B24A28F2038900643B2B /* iMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE7B24928F2038900643B2B /* iMusicApp.swift */; };
-		BBE7B24C28F2038900643B2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE7B24B28F2038900643B2B /* ContentView.swift */; };
+		BBE7B24C28F2038900643B2B /* ChangeFirstView-Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE7B24B28F2038900643B2B /* ChangeFirstView-Setting.swift */; };
 		BBE7B24E28F2038B00643B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE7B24D28F2038B00643B2B /* Assets.xcassets */; };
 		BBE7B25128F2038B00643B2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE7B25028F2038B00643B2B /* Preview Assets.xcassets */; };
 		BBE7B25828F203E800643B2B /* Miniplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE7B25728F203E800643B2B /* Miniplayer.swift */; };
@@ -20,10 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB2D882A291EB41E006271DB /* radioAllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioAllView.swift; sourceTree = "<group>"; };
 		BB69BF2829032E5600471300 /* SettingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingList.swift; sourceTree = "<group>"; };
+		BB69BF4D29072DA400471300 /* radioUpList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioUpList.swift; sourceTree = "<group>"; };
+		BB69BF53290ED63700471300 /* radioDownCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioDownCollection.swift; sourceTree = "<group>"; };
 		BBE7B24628F2038900643B2B /* iMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE7B24928F2038900643B2B /* iMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMusicApp.swift; sourceTree = "<group>"; };
-		BBE7B24B28F2038900643B2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBE7B24B28F2038900643B2B /* ChangeFirstView-Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChangeFirstView-Setting.swift"; sourceTree = "<group>"; };
 		BBE7B24D28F2038B00643B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBE7B25028F2038B00643B2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BBE7B25728F203E800643B2B /* Miniplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miniplayer.swift; sourceTree = "<group>"; };
@@ -44,6 +50,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB69BF4A29072C0A00471300 /* first modul data */ = {
+			isa = PBXGroup;
+			children = (
+				BBED9F9D28F495BC0098E647 /* FirstList.swift */,
+				BB69BF2829032E5600471300 /* SettingList.swift */,
+			);
+			path = "first modul data";
+			sourceTree = "<group>";
+		};
+		BB69BF4B29072C4300471300 /* first modul model */ = {
+			isa = PBXGroup;
+			children = (
+				BBE7B25B28F2044200643B2B /* Visualplayer.swift */,
+				BBE7B25728F203E800643B2B /* Miniplayer.swift */,
+				BBE7B24B28F2038900643B2B /* ChangeFirstView-Setting.swift */,
+				BBE7B25D28F2058A00643B2B /* tabBar.swift */,
+				BBE7B25928F2041800643B2B /* SecondList.swift */,
+			);
+			path = "first modul model";
+			sourceTree = "<group>";
+		};
 		BBE7B23D28F2038900643B2B = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +91,11 @@
 			isa = PBXGroup;
 			children = (
 				BBE7B24928F2038900643B2B /* iMusicApp.swift */,
-				BBE7B24B28F2038900643B2B /* ContentView.swift */,
-				BBED9F9D28F495BC0098E647 /* FirstList.swift */,
-				BBE7B25928F2041800643B2B /* SecondList.swift */,
-				BB69BF2829032E5600471300 /* SettingList.swift */,
-				BBE7B25D28F2058A00643B2B /* tabBar.swift */,
-				BBE7B25728F203E800643B2B /* Miniplayer.swift */,
-				BBE7B25B28F2044200643B2B /* Visualplayer.swift */,
+				BB69BF4D29072DA400471300 /* radioUpList.swift */,
+				BB69BF53290ED63700471300 /* radioDownCollection.swift */,
+				BB2D882A291EB41E006271DB /* radioAllView.swift */,
+				BB69BF4B29072C4300471300 /* first modul model */,
+				BB69BF4A29072C0A00471300 /* first modul data */,
 				BBE7B24D28F2038B00643B2B /* Assets.xcassets */,
 				BBE7B24F28F2038B00643B2B /* Preview Content */,
 			);
@@ -157,8 +182,11 @@
 			files = (
 				BBE7B25A28F2041800643B2B /* SecondList.swift in Sources */,
 				BBE7B25828F203E800643B2B /* Miniplayer.swift in Sources */,
-				BBE7B24C28F2038900643B2B /* ContentView.swift in Sources */,
+				BBE7B24C28F2038900643B2B /* ChangeFirstView-Setting.swift in Sources */,
+				BB2D882B291EB41E006271DB /* radioAllView.swift in Sources */,
+				BB69BF4E29072DA400471300 /* radioUpList.swift in Sources */,
 				BBE7B25E28F2058A00643B2B /* tabBar.swift in Sources */,
+				BB69BF54290ED63700471300 /* radioDownCollection.swift in Sources */,
 				BBED9F9E28F495BC0098E647 /* FirstList.swift in Sources */,
 				BBE7B25C28F2044200643B2B /* Visualplayer.swift in Sources */,
 				BB69BF2929032E5600471300 /* SettingList.swift in Sources */,
